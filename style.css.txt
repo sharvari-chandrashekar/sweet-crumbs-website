@@ -1,0 +1,34 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url('images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 120px 20px;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+img {
+  border-radius: 10px;
+}
