@@ -32,3 +32,13 @@ h1, h2 {
 img {
   border-radius: 10px;
 }
+.about-section {
+  background-color: #fff5f8;
+  padding: 50px 20px;
+  border-radius: 15px;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
